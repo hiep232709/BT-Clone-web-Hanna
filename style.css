@@ -99,6 +99,12 @@ img {
 
 /* Header */
 .header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(18, 18, 18);
   padding: 32px 0;
 }
 
@@ -132,7 +138,7 @@ img {
 
 /* Hero */
 .section--hero {
-  margin-top: 140px;
+  margin-top: 284px;
   margin-bottom: 120px;
 }
 
@@ -219,6 +225,6 @@ img {
   color: rgb(212, 212, 212);
 }
 .footer {
-  padding: 82px;
+  padding: 82px 82px;
   margin-top: 172px;
 }
